@@ -197,7 +197,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Bvipul\Generator\Provider\CrudGeneratorServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
-        Krgupta\Active\ActiveServiceProvider::class,
+        //Krgupta\Active\ActiveServiceProvider::class,
     ],
 
     /*
@@ -256,6 +256,6 @@ return [
         'Html'        => Collective\Html\HtmlFacade::class,
         'Socialite'   => Laravel\Socialite\Facades\Socialite::class,
         //'Datatables' => Yajra\DataTables\Facades\DataTables::class,
-        'Active'      => Krgupta\Active\Facades\Active::class,
+        //'Active'      => Krgupta\Active\Facades\Active::class,
     ],
 ];
