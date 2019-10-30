@@ -130,7 +130,7 @@ class InstallAppCommand extends Command
 
         $this->info('Now you can access the application on below url!');
         $this->line('Laravel development server started: <http://127.0.0.1:8000>');
-        Artisan::call('serve');
+        //Artisan::call('serve');
     }
 
     /**
